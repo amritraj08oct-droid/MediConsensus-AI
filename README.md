@@ -31,6 +31,12 @@ The application also includes:
 - Markdown consensus report generation
 - explicit educational safety framing
 
+## 🧪 Testing & API Key Requirement
+
+The complete workflow is intended to be tested end-to-end using **your own valid OpenAI API key**. Because the specialist agents and consensus coordinator make live API requests, successful execution depends on a valid, active API key and the corresponding API account having access to the selected model.
+
+> **Note:** This repository does not include or claim to contain a live API key. Before running the project, configure your own key in `.env` as described below. Do not commit or publish the key.
+
 ## 🏗️ Workflow
 
 ```text
